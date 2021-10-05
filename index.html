@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="assets/editar.png" type="image/x-icon">
+    <title>WorkJU - Tarefas</title>
+</head>
+<body>
+
+    <div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<img src="assets/logo.png" alt="" class="logo">
+				<div>
+					<div class="border1"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="aux1">Insira a tarefa a ser realizada no campo indicado.</p>
+				<p id="aux2">Ao clicar no item, a tarefa será marcada como concluída.</p>
+				<p id="aux3">Para remover a tarefa clicar no ícone de remoção.</p>
+			</div>
+		</div>
+
+		<div class="row" style="width: 100%">
+			<div class="dados col-6">
+				<input id="userInput" type="text" placeholder="Nova tarefa..." maxlength="27">
+				<button id="enter"><i class="""><img src="assets/editar.png"></i></button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2" id="ul">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+    <script src="js/workju.js"></script>
+    
+</body>
+</html>
